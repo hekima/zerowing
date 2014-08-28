@@ -20,6 +20,7 @@
      <maven.compiler.source>1.6</maven.compiler.source>
      <maven.compiler.target>1.6</maven.compiler.target>
      <hadoop.version>2.3.0-cdh5.1.2</hadoop.version>
+     <hadoopmr1.version>2.3.0-mr1-cdh5.1.2</hadoopmr1.version>
      <hbase.version>0.98.1-cdh5.1.2</hbase.version>
   </properties>
 
@@ -96,14 +97,12 @@
       <artifactId>jcommander</artifactId>
       <version>1.30</version>
     </dependency>
-    <!--
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-test</artifactId>
-      <version>${hadoop.version}</version>
+      <version>${hadoopmr1.version}</version>
       <scope>test</scope>
     </dependency>
-    -->
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-minicluster</artifactId>
